@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFFA Arquitectos | Diseño y Construcción</title>
+    <meta name="description" content="Despacho de arquitectura con años de experiencia en obras y proyectos. Diseño elegante y profesional.">
+    <!-- Google Fonts: Inter and Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#inicio" class="brand-logo">
+                ALFFA<br><span>ARQUITECTOS</span>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content fade-in-up">
+            <h1>Diseñando el futuro,<br>construyendo el presente.</h1>
+            <p>Más de una década de experiencia transformando espacios en obras de arte funcionales.</p>
+            <a href="#proyectos" class="btn-primary">Ver Portafolio</a>
+        </div>
+    </header>
+
+    <section id="nosotros" class="about section-padding">
+        <div class="container fade-in-up">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="about-grid">
+                <div class="about-text fade-in-up">
+                    <p><strong>ALFFA Arquitectos</strong> es un despacho familiar respaldado por décadas de experiencia en el diseño y ejecución de todo tipo de proyectos arquitectónicos y de obra civil.</p>
+                    <p>Nuestra filosofía se basa en encontrar el equilibrio perfecto entre la estética visual y la funcionalidad espacial. Durante la ejecución de obra, nuestro equipo destaca por su capacidad técnica, siempre encontrando la solución más eficiente para cada desafío en el momento oportuno.</p>
+                    <p>Amamos profundamente nuestra profesión. Esa pasión nos impulsa diariamente y es el sello distintivo que buscamos transmitir en cada uno de los espacios que transformamos.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Interior de oficina de arquitectura">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects section-padding bg-light">
+        <div class="container fade-in-up">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-images='["images/bodega_antes.jpg", "images/bodega_despues.jpg"]'>
+                    <!-- Cuando guardes tu imagen en la carpeta, usa esta ruta -->
+                    <img src="images/bodega_despues.jpg" alt="Remodelación Bodega Comercial - Después" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Bodega Centro CDMX</h3>
+                        <p>Remodelación Comercial</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/jacuzzi_proceso1.jpg", "images/jacuzzi_proceso2.jpg", "images/jacuzzi_proceso3.jpg", "images/jacuzzi_coyoacan.jpg"]'>
+                    <!-- Cuando guardes tu imagen en la carpeta, usa esta ruta -->
+                    <img src="images/jacuzzi_coyoacan.jpg" alt="Jacuzzi Exterior en Residencia - Coyoacán" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Jacuzzi Exterior</h3>
+                        <p>Coyoacán, CDMX</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/oceania_frente_real.jpg", "images/oceania_posterior_real.jpg"]'>
+                    <!-- Coloca aquí tu foto real -->
+                    <img src="images/oceania_frente_real.jpg" alt="Residencia Oceanía" class="archival-photo" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Residencia Oceanía</h3>
+                        <p>Remodelación</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/aifa_proceso1.jpeg", "images/aifa_proceso2.jpeg", "images/aifa_proceso3.jpeg", "images/aifa_proceso4.jpeg", "images/aifa_final.jpeg"]'>
+                    <!-- Coloca aquí tu foto final (portada) -->
+                    <img src="images/aifa_final.jpeg" alt="Autolavado HERTZ AIFA" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Autolavado HERTZ AIFA</h3>
+                        <p>Supervisión y Subcontratos</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/patio_proceso1.jpeg", "images/patio_proceso2.jpeg", "images/patio_proceso3.jpeg", "images/patio_proceso4.jpeg", "images/patio_final.jpeg"]'>
+                    <img src="images/patio_final.jpeg" alt="Remodelación de Patio en Coyoacán" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Patio Coyoacán</h3>
+                        <p>Remodelación Residencial</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/iztacalco_proceso1.jpg", "images/iztacalco_proceso2.jpeg", "images/iztacalco_proceso3.jpeg", "images/iztacalco_proceso4.jpeg", "images/iztacalco_final.jpg"]'>
+                    <img src="images/iztacalco_final.jpg" alt="Departamentos Iztacalco" class="archival-photo" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Departamentos Iztacalco</h3>
+                        <p>Proyecto y Supervisión</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/paraiso_proceso1.jpg", "images/paraiso_proceso2.jpg", "images/paraiso_proceso3.jpg", "images/paraiso_proceso4.jpg", "images/paraiso_final.jpg"]'>
+                    <img src="images/paraiso_final.jpg" alt="Obra Civil Paraíso Tabasco" class="archival-photo" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Urbanización Paraíso, Tabasco</h3>
+                        <p>Supervisión y Obra Civil</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/ecatepec_interior1.jpg", "images/ecatepec_interior2.jpg", "images/ecatepec_interior3.jpg", "images/ecatepec_interior4.jpg", "images/ecatepec_fachada.jpg"]'>
+                    <img src="images/ecatepec_fachada.jpg" alt="Casa Habitación Ecatepec" class="archival-photo" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Residencia Ecatepec</h3>
+                        <p>Proyecto y Remodelación</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-images='["images/banamex_proceso1.jpeg", "images/banamex_proceso2.jpeg", "images/banamex_proceso3.jpeg", "images/banamex_final.jpeg"]'>
+                    <img src="images/banamex_final.jpeg" alt="Centro Banamex CDMX" class="archival-photo" style="background-color: #eee;">
+                    <div class="portfolio-overlay">
+                        <h3>Centro Banamex CDMX</h3>
+                        <p>Colocación de Mármol</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact section-padding">
+        <div class="container fade-in-up">
+            <h2 class="section-title">Hablemos de tu Proyecto</h2>
+            <p class="contact-subtitle">Estamos listos para hacer realidad tu visión.</p>
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Nombre completo" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                </div>
+                <textarea rows="5" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <button class="lightbox-prev" aria-label="Anterior">&#10094;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Proceso de la obra">
+            <div id="lightbox-counter" class="lightbox-counter">1 / 1</div>
+        </div>
+        <button class="lightbox-next" aria-label="Siguiente">&#10095;</button>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>ALFFA Arquitectos</h3>
+                    <p>Diseño, remodelación y construcción de espacios extraordinarios y obra civil.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p><a href="mailto:AlffaArq@outlook.com" style="color: #fff; text-decoration: none;">AlffaArq@outlook.com</a></p>
+                    <p><a href="https://wa.me/525521292906" target="_blank" style="color: #fff; text-decoration: none;">WhatsApp: +52 55 2129 2906</a></p>
+                    <p><a href="https://wa.me/525531491157" target="_blank" style="color: #fff; text-decoration: none;">WhatsApp: +52 55 3149 1157</a></p>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <a href="https://www.facebook.com/profile.php?id=100092580286358" target="_blank">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ALFFA Arquitectos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
