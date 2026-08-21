@@ -69,8 +69,8 @@ function openLightbox(images) {
     currentImages = images;
     currentIndex = 0;
     updateLightboxImage();
-    lightbox.style.display = 'block';
-    // Use timeout to allow display block to apply before setting opacity for transition
+    lightbox.style.display = 'flex';
+    // Use timeout to allow display flex to apply before setting opacity for transition
     setTimeout(() => lightbox.classList.add('active'), 10);
     document.body.style.overflow = 'hidden'; // Prevent background scrolling
 }
