@@ -1,10 +1,10 @@
 /* Variables */
 :root {
-    --primary-color: #111111;
-    --secondary-color: #1a1a1a;
+    --primary-color: #1f1d1b;
+    --secondary-color: #2a2825;
     --accent-color: #c8a846; /* Dorado del logotipo ALFFA */
-    --text-color: #f4f4f4;
-    --text-light: #aaaaaa;
+    --text-color: #f5f3f0;
+    --text-light: #a39f99;
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
     --transition: all 0.4s ease;
@@ -25,7 +25,7 @@ body {
     font-family: var(--font-body);
     color: var(--text-color);
     line-height: 1.6;
-    background-color: #151515;
+    background-color: #24221f;
     overflow-x: hidden;
 }
 
@@ -55,7 +55,7 @@ ul {
 }
 
 .bg-light {
-    background-color: #1a1a1a;
+    background-color: #2a2825;
 }
 
 .section-title {
@@ -89,9 +89,9 @@ ul {
 }
 
 .navbar.scrolled {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(20, 20, 20, 0.95);
     backdrop-filter: blur(10px);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
     padding: 1rem 2rem;
 }
 
@@ -159,7 +159,7 @@ ul {
 }
 
 .navbar.scrolled .bar {
-    background-color: var(--primary-color);
+    background-color: #ffffff;
 }
 
 /* Hero Section */
