@@ -456,19 +456,24 @@ footer {
     }
 
     /* Lightbox Mobile Adjustments */
+    .lightbox {
+        overflow: hidden; /* Evita que una barra de scroll invisible empuje la foto a la izquierda */
+    }
+
     .lightbox-content {
         max-width: 100%;
         width: 100%;
-        height: 100vh; /* Toma toda la altura de la pantalla */
+        height: 100vh;
         max-height: 100vh;
-        justify-content: center; /* Centra la imagen verticalmente */
+        justify-content: center;
     }
 
     #lightbox-img {
         width: 100%;
-        max-height: 80vh; /* Evita que choque con los botones si es muy alta */
-        object-fit: contain; /* Mantiene la proporción perfecta */
-        border: none; /* Look moderno y limpio sin bordes */
+        max-height: 80vh;
+        object-fit: contain;
+        border: none !important; /* Fuerza a quitar el borde amarillo que estaba descuadrando */
+        box-sizing: border-box;
     }
 
     .lightbox-prev, .lightbox-next {
