@@ -459,35 +459,40 @@ footer {
     .lightbox-content {
         max-width: 100%;
         width: 100%;
+        height: 100vh; /* Toma toda la altura de la pantalla */
+        max-height: 100vh;
+        justify-content: center; /* Centra la imagen verticalmente */
     }
 
     #lightbox-img {
         width: 100%;
-        border-left: none;
-        border-right: none;
-        border-width: 1px;
+        max-height: 80vh; /* Evita que choque con los botones si es muy alta */
+        object-fit: contain; /* Mantiene la proporción perfecta */
+        border: none; /* Look moderno y limpio sin bordes */
     }
 
     .lightbox-prev, .lightbox-next {
-        padding: 10px 15px;
-        font-size: 24px;
-        background: rgba(0, 0, 0, 0.5);
+        padding: 15px 20px;
+        font-size: 22px;
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(255,255,255,0.1);
     }
 
     .lightbox-prev {
         left: 0;
-        border-radius: 0 5px 5px 0;
+        border-radius: 0 8px 8px 0;
     }
 
     .lightbox-next {
         right: 0;
-        border-radius: 5px 0 0 5px;
+        border-radius: 8px 0 0 8px;
     }
 
     .lightbox-close {
-        top: 10px;
-        right: 15px;
-        font-size: 30px;
+        top: 15px;
+        right: 20px;
+        font-size: 35px;
+        z-index: 2005;
     }
 }
 
